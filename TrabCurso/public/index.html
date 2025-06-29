@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="FrontAddons/CSS/main/main.css" />
+</head>
+
+<body>
+    <!-- Tela inicial com blur no fundo -->
+    <div class="initial-screen" id="initial-screen">
+        <main class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+            <div class="totem-main-box">
+                <h2 class="titulo-pedido">Qual nome deseja mostrar no pedido?</h2>
+                <form id="pedidoForm">
+                    <input type="text" name="nome" class="form-nome" placeholder="Digite seu nome..." required />
+                    <button type="submit" class="btn-confirmar">Confirmar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- Aplicativo principal (inicialmente oculto) -->
+    <div id="main-app" style="display: none;">
+        <header>
+            <div>
+                <h1>PROMOÇÕES DO DIA</h1>
+                <p>Café Quente Menu</p>
+            </div>
+            <div class="carrinho" id="carrinho-btn">
+                🛒
+                <span class="carrinho-contador" id="cart-count" style="display: none;">0</span>
+            </div>
+        </header>
+        
+        <div class="main-content">
+            <div class="categories-sidebar" id="categories-sidebar">
+                <!-- Categorias serão inseridas aqui via JS -->
+            </div>
+
+            <div class="products-section" id="products-section">
+                <!-- Produtos serão inseridos aqui via JS, organizados por categoria -->
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Café Quente - Todos os direitos reservados</p>
+        </footer>
+    </div>
+
+    <script type="module" src="/FrontAddons/JS/main/main.js"></script>
+</body>
+
+</html>
