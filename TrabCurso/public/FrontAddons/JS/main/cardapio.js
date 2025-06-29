@@ -3,14 +3,16 @@
            'lanche': '🍔',
            'bebida': '🥤',
            'acompanhamento': '🍟',
-           'sobremesa': '🍰'
+           'sobremesa': '🍰',
+           'combo': '🍱'
        };
 
        const categoryNames = {
            'lanche': 'Lanches',
            'bebida': 'Bebidas',
            'acompanhamento': 'Acompanhamentos',
-           'sobremesa': 'Sobremesas'
+           'sobremesa': 'Sobremesas',
+           'combo': 'Combos'
        };
 
        let carrinhoItens = [];

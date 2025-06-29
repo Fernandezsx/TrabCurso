@@ -15,16 +15,18 @@
 // Configuração de categorias com ícones e nomes amigáveis
 const categoryIcons = {
     'lanche': '🍔',
-    'bebida': '🥤', 
+    'bebida': '🥤',
     'acompanhamento': '🍟',
-    'sobremesa': '🍰'
+    'sobremesa': '🍰',
+    'combo': '🍱'
 };
 
 const categoryNames = {
     'lanche': 'Lanches',
     'bebida': 'Bebidas',
-    'acompanhamento': 'Acompanhamentos', 
-    'sobremesa': 'Sobremesas'
+    'acompanhamento': 'Acompanhamentos',
+    'sobremesa': 'Sobremesas',
+    'combo': 'Combos'
 };
 
 // Variáveis globais
