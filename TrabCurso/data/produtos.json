@@ -22,5 +22,13 @@
     "preco": 12,
     "imgProd": "https://s2-oglobo.glbimg.com/7Ea-LBy4TqZ1W6xASfbifUnp8b8=/0x0:301x301/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/5/0/hdhwI2St270nDxTqBtnQ/96450421-um-caseiro-de-21-anos-matou-sua-mulher-que-estava-gravida-de-4-meses-a-enteada-de-2-anos-e.jpg",
     "disponivel": true
+  },
+  {
+    "idprod": 4,
+    "nomeProd": "Combo Burger",
+    "idCategoria": "combo",
+    "preco": 25,
+    "imgProd": "https://via.placeholder.com/150?text=Combo",
+    "disponivel": true
   }
 ]

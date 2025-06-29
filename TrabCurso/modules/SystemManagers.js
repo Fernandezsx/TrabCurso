@@ -233,6 +233,14 @@ class ProductManager {
             categoria: 'acompanhamento',
             ativo: true,
             imagem: 'https://via.placeholder.com/100x100?text=Batata'
+        },
+        {
+            id: 4,
+            nome: 'Combo Burger',
+            preco: 25.00,
+            categoria: 'combo',
+            ativo: true,
+            imagem: 'https://via.placeholder.com/100x100?text=Combo'
         }
     ];
 
