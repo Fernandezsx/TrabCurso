@@ -25,9 +25,9 @@ function showCarousel() {
 
     function close() {
         overlay.style.display = 'none';
-        window.location.href = '/';
         clearInterval(interval);
         overlay.removeEventListener('click', close);
+        window.location.reload(); // volta para a tela inicial
     }
 
     overlay.addEventListener('click', close);
